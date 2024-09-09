@@ -1,0 +1,139 @@
+<html>
+	<head>
+		<link href="../css/estilo.css" rel="stylesheet" type="text/css">
+		<link href="../css/estilo2.css" rel="stylesheet" type="text/css">
+		<link href="../css/estilo3.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="../js/funcion.js"></script>
+	</head>
+	<body>
+		<div class="Principal">
+			<div class="Menu">
+				<div class="Logo">
+					<a href="../index.html"><img src="../img/LogoP.png"/></a>
+				</div>
+				<button id="menu-btn" aria-label="Menú desplegable">&#9776;</button>
+				<nav id="menu">
+				<div class="Enlaces" id="en1">
+					<ul class="ListaB">
+						<li><a href="../index.html"><div class="b">Inicio</div></a></li>
+						<li><a href="posts.html"><div class="b">Posts</div></a></li>
+						<li><a href="buscar.html"><div class="b">Buscar</div></a></li>
+					</ul>
+					
+					</div>
+					<div class="Enlaces" id="en2">
+					
+					<ul class="ListaB">
+						<li id="creapostbot"><a href="crearpost.html"><div class="b">Crear Post</div></a></li>
+						<li id="perfilboton"><a href="perfilpersonal.html"><div class="b">Perfil</div></a></li>
+						<li id="botEscon1"><a href="login.html"><div class="b">Ingresar</div></a></li>
+						<li id="botEscon2"><a href="register.html"><div class="b">Registrarse</div></a></li>
+					</ul>
+				</div>
+				</nav>
+			</div>
+			
+			<div class="Espacio"></div>
+			<div class="Espacio2"></div>
+				<div class="Intermedio">
+					<div class="Contenedor" id="npos">
+						<h2>Editar Post</h2>
+						<form id="formularioPost" enctype="multipart/form-data">
+							<div class="input-group">
+								<label for="nombre">Nombre:</label>
+								<input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre">
+							</div>
+							<div class="input-group">
+								<label for="sexo">Sexo:</label>
+								<select id="sexo" name="sexo">
+									<option value="macho">Macho</option>
+									<option value="hembra">Hembra</option>
+								</select>
+							</div>
+							<div class="input-group">
+								<label for="ciudad">Ciudad:</label>
+								<input type="text" id="ciudad" name="ciudad" placeholder="Ingrese la ciudad">
+							</div>
+							<div class="input-group">
+								<label for="descripcion">Descripción:</label>
+								<textarea id="descripcion" name="descripcion" placeholder="Ingrese una descripción"></textarea>
+							</div>
+							<div class="input-group">
+								<label for="imagen">Imagen:</label>
+								<input type="file" id="imagen" name="imagen">
+							</div>
+							
+							<label>Etiquetas:</label>
+							<div class="input-group etiquetaF">
+								
+								<input type="checkbox" id="etiqueta1" name="etiqueta1" value="etiqueta1">
+								<label for="etiqueta1">Perro</label>
+
+								<input type="checkbox" id="etiqueta2" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Gato</label>
+								
+								<input type="checkbox" id="etiqueta3" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Pajaro</label>
+								
+								<input type="checkbox" id="etiqueta4" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Roedor</label>
+								
+								<input type="checkbox" id="etiqueta5" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Macho</label>
+								
+								<input type="checkbox" id="etiqueta6" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Hembra</label>
+								
+								<input type="checkbox" id="etiqueta7" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Juguetón</label>
+
+								<input type="checkbox" id="etiqueta8" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Discapacitado</label>
+								
+								<input type="checkbox" id="etiqueta9" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Cariñoso</label>
+								
+								<input type="checkbox" id="etiqueta10" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Protector</label>
+								
+								<input type="checkbox" id="etiqueta11" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Tranquilo</label>
+								
+								<input type="checkbox" id="etiqueta12" name="etiqueta2" value="etiqueta2">
+								<label for="etiqueta2">Pequeño</label>
+							</div>
+							
+							<button type="submit">Editar</button>
+						</form>
+					</div>
+				</div>
+			<script type="text/javascript" src="../js/menudes.js"></script>
+			<div class="Pie">
+				<div class="Informacion">
+					<h3>Contacto</h3>
+					<p>Correo electrónico: info@pawspiespets.com</p>
+					<p>Teléfono: +42 123 1234</p>
+					<p>Dirección: #42 Calle Juan, San Luis Potosí, México</p>
+				</div>
+				<div class="EnlacesPie">
+					<h3>Enlaces útiles</h3>
+					<ul>
+						<li><a href="pdp.html">Política de privacidad</a></li>
+						<li><a href="tyc.html">Términos y condiciones</a></li>
+						<li><a href="pf.html">Preguntas Frecuentes</a></li>
+					</ul>
+				</div>
+				
+				<div class="RedesSociales">
+					<h3>Síguenos en redes sociales</h3>
+					<ul>
+						<li><a href="www.facebook.com"><img src="../img/facebook.png" alt="Facebook"></a></li>
+						<li><a href="www.x.com"><img src="../img/x.png" alt="X"></a></li>
+						<li><a href="www.instagram.com"><img src="../img/instagram.png" alt="Instagram"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>	
+</html>

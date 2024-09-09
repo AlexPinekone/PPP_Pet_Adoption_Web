@@ -1,0 +1,714 @@
+	body {
+		margin: 0px;
+		padding: 0px;
+		background-image: linear-gradient(to bottom right, rgba(106, 13, 173, 1), rgba(134, 68, 162, 1));
+		font-family: "Century Gothic", sans-serif;}
+
+	ul {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;}
+
+	a {
+		text-decoration: none;
+		color: inherit;}
+	#perfilboton{
+		display:none;}
+	#creapostbot{
+		display:none;}
+	#botEditarPost{
+		display:none;
+	}
+	#postp2 h2{
+		color:black;
+	}
+	
+	#chat-box {
+            height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+			background-color:white;
+			line-height:30px;
+			color:black;
+    }
+	#messageB{
+		width:100%;
+		height:40px;
+	}
+	.me{
+		margin-bottom:12px;
+		font-weight: bold;
+		width:300px;
+		border-radius:25px;
+		padding:5px;
+		padding-left:20px;
+		Color:white;
+	}
+	
+	.ContHori{
+		margin-left:auto;
+		margin-right:auto;
+		display:flex;
+		flex-direction:row;
+		width:1100px;
+		height:80px;
+		justify-content:center;
+		align-items:center;
+		margin-bottom:50px;
+		margin-top:30px;
+		color:white;
+		
+	}
+	
+	#chat-box {
+				height: 300px;
+				overflow-y: scroll;
+				border: 1px solid #ccc;
+				padding: 10px;
+				background-color:white;
+				line-height:30px;
+				color:black;
+			}
+			#messageB{
+				width:100%;
+				height:40px;
+			}
+			.me{
+				margin-bottom:12px;
+				font-weight: bold;
+				width:300px;
+				border-radius:25px;
+				padding:5px;
+				padding-left:20px;
+				Color:white;
+			}
+			#enviar{
+				width:80%;
+			}
+			#actualiza{
+				width:18%
+			}
+
+/*@media screen and (min-width:1025px)*/
+
+@media screen and (min-width:1025px)
+{
+	/*Menú superior*/
+	.Menu{
+		background-image: linear-gradient(to bottom, rgba(64, 19, 94, 1), rgba(64, 19, 94, 0.9));
+		display:flex; 
+		height:150px; 
+		justify-content:center; 
+		align-items:center; 
+		position: fixed; 
+		width:100%;
+		flex-direction:row;
+		}
+	#menu{
+		display:flex;
+	}
+	#menu-btn {
+		display: none;
+	}
+	/*Para el chat*/
+	.ContHori{
+		margin-left:auto;
+		margin-right:auto;
+		display:flex;
+		flex-direction:row;
+		width:1100px;
+		height:80px;
+		justify-content:center;
+		align-items:center;
+		margin-bottom:50px;
+		margin-top:30px;
+		color:white;
+	}
+	/*Separador secciones*/
+	.Espacio{
+		height:200;}
+	/*Imagen Logo*/
+	.logo{
+		margin-right:9%; 
+		margin-left:7%;}
+	.logo img{
+		width:100px; 
+		opacity:70%;}
+	/*Enlaces a otros htmls*/
+	.Enlaces{
+		padding:10px; 
+		display:flex; 
+		justify-content:center; 
+		flex:1;}
+	/*Lista de los botones*/
+	.ListaB{
+		list-style-type:none; 
+		margin:0px; 
+		padding:0px; 
+		display:flex;}
+	/*Renglones de la lista*/
+	.ListaB li{
+		margin-right:30px;}
+	/*Botones del menú superior*/
+	.b{
+		width:120px;
+		padding:20px; 
+		float:left; 
+		text-align:center; 
+		color:white; 
+		font-weight:bold; 
+		font-size: 20px; 
+		background-color:#571A7F; 
+		border-radius:25px;}
+	/*Pasar mouse sobre los botones*/
+	.b:hover{
+		background-color:#C77DFF; 
+		opacity:50%; 
+		color:black;}
+	/*Subapartado de enlaces 1*/
+	#en1{
+		margin-right:10%;}
+	/*Diseño Carrusel de imagenes*/
+	.Carrusel {
+    width: 1200px;
+	height: 500px;
+    overflow: hidden;
+	margin-top:200px;
+	margin-bottom:150px;}
+	/*Cada imagen*/
+	.slide {
+		display: none;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	/*Para activar el carrusel*/
+	.active {
+		display: block;
+	}
+	/*Botones del Carrusel*/
+	#prevBtn,
+	#nextBtn {
+		position: absolute;
+		top: 60%; 
+		transform: translateY(-50%);
+		background-color: #555;
+		color: #fff; 
+		border: none;
+		padding: 10px 20px;
+		cursor: pointer;
+		height:80px;
+		opacity:50%;
+		width:50px;
+	}
+	/*Posicionar los botones*/
+	#prevBtn {
+		left: 100px; 
+	}
+	#nextBtn {
+		right: 100px; 
+	}
+	/*Apartado grande de enmedio*/
+	.Intermedio{
+		display:flex; 
+		align-items:center; 
+		justify-content:center; 
+		margin:auto; 
+		flex-direction:column;}
+	/*Contenedor de texto, imagenes y cosas*/
+	.Contenedor{
+		border-radius:25px; 
+		width:1100px; 
+		padding:50px 50px;
+		color:white;}
+	/*Diseño de las imagenes dentro del contenedor*/
+	#c2 img{
+		width:200px;
+		margin-left:40px;;
+	}
+	#c2 h2{
+		color:black;
+	}
+	#c2{
+		font-size:18px;
+	}
+	#c3 p{
+		width:900px;
+		font-size:18px;
+	}
+	#c3 img{
+		width:300px;
+	}
+	#c3 h2{
+		color:black;
+	}
+	.imInter{
+	width:200px;
+	height:200px;
+	}
+	.imInterA{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	}
+	/*Titulos grandes*/
+	.Titulo{
+		font-size:60px;
+		color:white; 
+		margin-bottom:30px;
+		font-weight:bold;}
+	/*subContenedor de 3*/
+	.sub1{
+		display:flex; 
+		flex-direction:row; 
+		width:1200px; 
+		justify-content:center;}
+	/*Contenedor de textos flotantes*/
+	.contenedorT{
+		display: flex; 
+		width:1100px; 
+		height:200px; 
+		margin-top:150px;
+		margin-bottom:200px; 
+		flex-direction:column; 
+		justify-content:center; 
+		align-items:center;}
+	/*Titulos dentro de los textos flotantes*/
+	.contenedorT h2{
+		font-size:60px;
+		height:30px;
+		color:#FAA400;}
+	/*Los parrafos de los textos flotantes*/
+	.contenedorT p{
+		color: white;
+		font-weight:bold;
+		line-height:30px;
+	}
+	/*Imagenes de los textos flotantes*/
+	.contenedorT img{
+		height:200px;
+	}
+	/*Contenedores chiquitos y altos*/
+	#c2{
+		width:300px; 
+		height:500px; 
+		background-color:#C77DFF;
+		margin-right:10px; 
+		margin-left:10px; 
+		margin-bottom:150px;}
+	/*Contenedor de color morado más grande*/
+	#c3{
+		display: flex; 
+		width:1100px; 
+		height:420px; 
+		background-color:#C77DFF; 
+		margin-bottom:200px; 
+		flex-direction:column;
+		justify-content:center; 
+		align-items:center;}
+	/*Contenedores chiquitos para login y registro*/
+	#log{
+		display: flex; 
+		width:400px;  
+		background-color:#C77DFF; 
+		margin-bottom:200px; 
+		flex-direction:column;
+		justify-content:center; 
+		align-items:center;
+		padding:10px;}
+	/*Titulos para login y registro*/
+	#log h2 {
+    text-align: center;
+    margin-bottom: 20px;
+	}
+	/*Diseño para login*/
+	#log form {
+		display: flex;
+		flex-direction: column;
+	}
+	/*Diseño para separar los login*/
+	#log .input-group {
+		margin-bottom: 20px;
+	}
+	/*Etiquetas para los login*/
+	#log label {
+		font-weight: bold;
+	}
+	/*Diseño de los recuadros de texto login*/
+	#log input[type="text"],
+	input[type="username"],
+	input[type="email"],
+	input[type="password"] {
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+	}
+	/*Para crear un post*/
+	#npos{
+		display: flex; 
+		width:600px; 
+		background-color:#C77DFF; 
+		margin-bottom:200px; 
+		flex-direction:column;
+		justify-content:center; 
+		align-items:center;}
+		
+	#npos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+	}
+	/*Diseño para login*/
+	#npos form {
+		display: flex;
+		flex-direction: column;
+	}
+	/*Diseño para separar los login*/
+	#npos .input-group {
+		margin-bottom: 20px;
+	}
+	/*Etiquetas para los login*/
+	#npos label {
+		font-weight: bold;
+	}
+	#npos input[type="text"]{
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+	}
+	#npos textarea{
+		width: 100%;
+		padding: 10px;
+		height:200px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+	}
+	/*Diseño busqueda*/
+	#search{
+		display: flex; 
+		width:1000px; 
+		height:60px; 
+		background-color:#C77DFF; 
+		margin-bottom:200px; 
+		flex-direction:column;
+		justify-content:center; 
+		align-items:center;}
+	/*Diseñó titulos de busqueda*/
+	#search h2 {
+    text-align: center;
+    margin-bottom: 20px;
+	}
+	/*Diseño para busqueda*/
+	#search form {
+		display: flex;
+		flex-direction: column;
+	}
+	/*Diseñó para separar la busqueda*/
+	#search .input-group {
+		margin-bottom: 20px;
+	}
+	/*Diseñó etiquetas visuales de la busqueda*/
+	#search label {
+		font-weight: bold;
+	}
+	/*Diseño para la caja de texto de busqueda*/
+	#search input[type="search-term"]
+	{
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+	}
+	/*Diseño botones con acciones concretas*/
+	button {
+		width: 100%;
+		padding: 10px;
+		background-color: #571A7F;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	/*Al pasar el mouse encima del botón*/
+	button:hover {
+		background-color: #9C5EC6;
+	}
+	/*Diseño cosas del perfil*/
+	.infoP{
+		
+	}
+	.imgP{
+		width:200px;
+		height:200px;
+		overflow:hidden;
+		margin-left:50px;
+	}
+	.infoP img{
+		width:100%;
+		height:100%;
+		object-fit:cover;
+	}
+	/*Contenedor de los multiples retratos de mascotas*/
+	.Mascotas {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 100px;
+		width:900px;
+		height:500px;
+		flex-wrap:wrap;
+    }
+	/*Diseño de los Div de los retratos de mascotas*/
+    .Mascota {
+        text-align: center;
+        width: 200px;
+		height: 200px;
+		overflow: hidden;
+    }
+	/*Diseño imagen de los retratos*/
+    .Mascota img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+		object-fit:cover;
+    }
+	/*Texto de los retratos de mascotas*/
+    .Mascota p {
+        margin: 0;
+        font-weight: bold;
+		color:white;
+    }
+	/*Para contener la imagen y los datos importantes de la mascota en una sola linea*/
+	.postcont{
+		display:flex; 
+		width:1200px;
+		flex-direction:row;}
+	/*Contenedor para la imagen de la mascota en el post*/
+	#postp0{
+		width:240px; 
+		height:190px; 
+		background-color:#C77DFF; 
+		margin-right:20px; 
+		margin-bottom:20px;
+		padding: 10px 10px;
+		overflow: hidden;}
+	#postp0 img{
+		width:100%;
+		height:100%;
+		object-fit:cover;
+		}
+	/*Contenedor para datos importante de las mascotas en el post*/
+	#postp1{
+		width:1100px; 
+		height:150px; 
+		background-color:#C77DFF; 
+		margin-bottom:20px;
+		padding-top:10px;}
+	.pDato{
+		display:flex;
+		flex-direction:row;
+	}
+	.datoT{
+		font-size:28px;
+		font-weight:bold;
+		margin-bottom:5px;
+		margin-top:5px;
+	}
+	.datoD{
+		margin-left:20px;
+		margin-bottom:5px;
+		margin-top:5px;
+		font-size:28px;
+	}
+	/*Contenedor para descripción de la mascota en el post*/
+	#postp2{
+		display: flex; 
+		width:1100px; 
+		background-color:#C77DFF; 
+		margin-bottom:20px; 
+		flex-direction:column;}
+	.tituloDes{
+		font-size:22px;
+		font-weight:bold;
+	}
+	.textoDes{
+		margin-left:12px;
+		font-size:28px;
+	}
+	.imagenDes{
+		margin-top:100px;
+		margin-left:400px;
+		width:300px; 
+	}
+	.imagenDes img{
+		width:100%;
+		height:100%;
+	}
+	/*Etiquetas seleccionables durante la creación y edición del post*/
+	.etiquetaF {
+    display: flex;
+    flex-wrap: wrap;
+	}
+	.etiquetaF label {
+    margin-right: 10px; /* Espacio entre cada checkbox y su etiqueta */
+    margin-bottom: 10px; /* Espacio entre filas de checkboxes */
+    flex-basis: calc(31.0% - 20px); /* Ancho de cada checkbox, con espacio para márgenes */
+}
+	/*Contenedor al final de los posts*/
+	#etiquetas{
+		display: flex;
+		flex-wrap:wrap;
+		width:1100px; 
+		background-color:#C77DFF;
+		align-items:center;
+		justify-content:center;}
+	/*Agrupador de etiquetas en un contenedor*/
+	.cajaEtiquetas{
+		display:flex;
+		flex-wrap:wrap; 
+		align-items:center;
+		width:78%;	}
+	/*Etiquetas de caracteristicas per se*/
+	.etiqueta{
+		display:flex;
+		border-radius:45px; 
+		width:120px; 
+		height:30px; 
+		background-color:#40135E; 
+		color:white;
+		justify-content:center; 
+		align-items:center;
+		margin-right:50px;
+		margin-bottom:20px;}
+		
+	/*Contenedor de botones al final de los posts*/
+	.botFin{
+		display:flex; 
+		margin-top:20px;}
+	/*Los botones per se*/
+	.botFin button{
+		padding: 20px;}
+	/*Pie de página*/
+	.Pie {
+		background-color: #000;
+		color: #fff;
+		padding: 20px;
+		display: flex;
+		justify-content: center;
+		margin-top:20px;
+		height:250px;
+		width:96%;
+		position:center;
+	}
+	/*Los tres apartados del pie de página*/
+	.Pie .Informacion,
+	.Pie .EnlacesPie,
+	.Pie .RedesSociales {
+		width:400px;
+		justify-content: center
+		flex: 1;
+		margin-right: 20px;
+	}
+	/*Titulos del pie de página*/
+	.Pie h3 {
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+	/*Texto de los pies de páginas*/
+	.Pie p {
+		margin-bottom: 8px;
+	}
+	/*Diseño para las listas*/
+	.Pie ul li {
+		margin-bottom: 5px;
+	}
+	/*Diseño para los enlaces de las listas*/
+	.Pie ul li a {
+		color: #fff;
+		text-decoration: none;
+	}
+	/*Al pasar el mouse sobre los enlaces*/
+	.Pie ul li a:hover {
+		text-decoration: underline;
+	}
+	/*Para los iconoes de redes sociales*/
+	.Pie .RedesSociales ul li {
+		display: inline-block;
+		margin-right: 10px;
+	}
+	/*Para el último icono de las redes sociales*/
+	.Pie .RedesSociales ul li:last-child {
+		margin-right: 0;
+	}
+	/*Para las imagenes de los iconos*/
+	.Pie .RedesSociales ul li img {
+		width: 30px;
+		height: 30px;
+	}
+	
+	/* Contenedor del chat */
+	.chat-container {
+		display: flex;
+		flex-direction: column;
+		height: 400px;
+	}
+
+	/* Contenedor de los mensajes */
+	.messages-container {
+		overflow-y: auto;
+	}
+
+	/* Estilos para los mensajes */
+	.messages {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.message {
+		margin-bottom: 10px;
+	}
+
+	.message .sender {
+		font-weight: bold;
+		color: #333;
+	}
+
+	.message .content {
+		margin-left: 10px;
+	}
+
+	/* Contenedor de ingreso de mensajes */
+	.input-container {
+		margin-top: auto;
+	}
+
+	/* Formulario de ingreso de mensajes */
+	.message-form {
+		display: flex;
+		align-items: right;
+		width:100px;
+	}
+
+	.message-input {
+		flex: 1;
+		padding: 5px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+	}
+
+	.send-button {
+		margin-left: 5px;
+		padding: 5px 10px;
+		background-color: #571A7F;
+		color: #fff;
+		border: none;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+
+	.send-button:hover {
+		background-color: #9C5EC6;
+	}
+}
