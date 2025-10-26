@@ -7,7 +7,7 @@ The app combines a **PHP backend** with a **MySQL database** and a **frontend bu
 
 ---
 
-## 🐾 Key Features
+## Key Features
 - Basic user authentication (login/register).
 - Create, edit, and delete pet posts (title, description, image, contact info).
 - Home page with a carousel and featured pets.
@@ -18,15 +18,15 @@ The app combines a **PHP backend** with a **MySQL database** and a **frontend bu
 
 ---
 
-### 🖼 Screenshot 1
+### Screenshot 1
 ![App Screenshot 1](./images/screenshot_1.png)
 
-### 🖼 Screenshot 2
+### Screenshot 2
 ![App Screenshot 2](./images/screenshot_2.png)
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 - `index.php` — Main page with the carousel and pet listings.  
 - `html/` — Main PHP pages (login, register, posts, createpost, editpost, profile, chat, etc.).  
 - `js/` — Client-side scripts: `carrusel.js`, `menudes.js`, `login.js`, `funcion.js`, `cerrarsesion.js`.  
@@ -36,7 +36,7 @@ The app combines a **PHP backend** with a **MySQL database** and a **frontend bu
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 - PHP 7.2+ (or equivalent installed on Windows).  
 - Web server (Apache/IIS) or use PHP’s built-in development server.  
 - MySQL or MariaDB.  
@@ -44,7 +44,7 @@ The app combines a **PHP backend** with a **MySQL database** and a **frontend bu
 
 ---
 
-## 🚀 Installation & Setup (Development)
+## Installation & Setup (Development)
 1. Clone or copy the project to your local machine.  
 2. Import the database using the SQL file located in `Base de datos/pawspiespets.sql`  
    (for example, via phpMyAdmin or the `mysql` command-line tool):
@@ -57,7 +57,7 @@ Make sure to secure credentials in production environments.
 
 4. Start a local server from the project root (quick option using PHP’s built-in server):
 
-# From the project root
+From the project root
 php -S localhost:8000
 
 Then open http://localhost:8000
